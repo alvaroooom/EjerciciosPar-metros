@@ -3,6 +3,7 @@ package com.salesianostriana.dam.ejerciciosparametros.services;
 import com.salesianostriana.dam.ejerciciosparametros.dto.FiltroProductoDto;
 import com.salesianostriana.dam.ejerciciosparametros.model.Producto;
 import com.salesianostriana.dam.ejerciciosparametros.repo.ProductoRepository;
+import com.salesianostriana.dam.ejerciciosparametros.spec.ProductoSpecifications;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
