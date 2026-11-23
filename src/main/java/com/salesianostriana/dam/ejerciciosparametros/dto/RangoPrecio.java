@@ -1,8 +1,8 @@
 package com.salesianostriana.dam.ejerciciosparametros.dto;
 
 public record RangoPrecio (
-        Double max,
-        Double min
+        Double min,
+        Double max
 ) {
     public static RangoPrecio of(String rango){
         String[] partes = rango.split("-");
